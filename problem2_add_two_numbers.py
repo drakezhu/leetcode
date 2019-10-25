@@ -23,7 +23,9 @@ class Solution(object):
             l1 = (l1.next if l1 else None)
             l2 = (l2.next if l2 else None)
                 
-
+	    '''
+	    Can be replaced by outVal, should_add_one = divmod(value1 + value2 + should_add_one)
+	    '''
             outVal = value1 + value2 + should_add_one
             should_add_one = 0
 
