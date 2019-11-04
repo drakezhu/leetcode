@@ -5,9 +5,8 @@ class Solution(object):
         :rtype: int
         """
         """
-        异或运算符和交换律，可以将所有数字异或，
-        则最后剩下的结果为0异或a，此处a为唯一
-        的single number
+        异或一串相同的字符串，结果为0，一旦
+        出现不相同的，则异或之后会变成那个值
         """
         a = 0
         for i in nums:
